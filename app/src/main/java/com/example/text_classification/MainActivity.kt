@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.text_classification.data.api.NewsApiService
-import com.example.text_classification.data.sentimentanalysis.SentimentAnalyzer
+import com.example.text_classification.data.utils.SentimentAnalyzer
 import com.example.text_classification.databinding.ActivityMainBinding
 import com.example.text_classification.ui.NewsPagingAdapter
 import com.example.text_classification.ui.NewsViewModel

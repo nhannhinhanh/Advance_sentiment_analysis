@@ -12,6 +12,6 @@ class NewsViewModel(
     private val apiService: NewsApiService
 ) : ViewModel() {
     val pagedNews = Pager(PagingConfig(pageSize = 20)) {
-        NewsPagingSource(apiService, "0db8aaefe18a476b86f1970327cfe251")
+        NewsPagingSource(apiService, "3f6f69cd378f4cf2bbdd85c1c9629c34")
     }.flow.cachedIn(viewModelScope)
 }
